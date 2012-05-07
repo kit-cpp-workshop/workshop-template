@@ -28,4 +28,4 @@ Aufgabenbeschreibung
 
 ### Bonusaufgabe: Project Euler
 
-Falls du früher fertig bist oder einfach nur Lust auf mehr hast, schau dich mal bei [Project Euler](http://projecteuler.net/) um und such dir eine Aufgabe aus. Lade sie genau wie die beiden anderen Aufgaben hoch.
+Falls du früher fertig bist oder einfach nur Lust auf mehr hast, schau dich mal bei [Project Euler](http://projecteuler.net/) um und such dir eine Aufgabe aus. Lade sie genau wie die anderen Aufgaben hoch.

@@ -8,7 +8,7 @@ Kurze Einführung in die Thematik
 
 Die Vortragsfolien stehen als [PDF](URL) zum Download bereit. Außerdem liegt der LaTeX-Quellcode zu den Folien im Ordner `slides`.
 
-###Screencast
+### Screencast
 
 Ein Screencast des Vortrags wird nach dem Workshop an dieser Stelle verlinkt.
 

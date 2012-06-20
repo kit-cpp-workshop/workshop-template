@@ -28,6 +28,13 @@
 \usepackage{templates/beamerthemekit}
 % \usepackage{templates/beamerthemekitwide}
 
+
+% inserted by Koios to hide comments in lstlistings
+\newcommand{\none}[1]{}
+
+\lstset{language=C++, basicstyle=\footnotesize, numbers=left, numberstyle=\tiny\color{gray}, tabsize=4, xleftmargin=2em, rangeprefix=/*$\ , rangesuffix=\ $*/, includerangemarker=false}
+
+
 %% TITLE PICTURE
 
 % if a custom picture is to be used on the title page, copy it into the 'logos'

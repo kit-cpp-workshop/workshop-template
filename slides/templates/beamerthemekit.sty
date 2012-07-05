@@ -135,11 +135,15 @@ KIT -- University of the State of Baden-Wuerttemberg and\\National Laboratory of
 \vbox{\hsize=9cm\bfseries\insertframetitle}
 
 \begin{textblock*}{15mm}(108mm,4mm)
-\iflanguage{english}{%
-\includegraphics[width=14mm]{logos/kitlogo_en_rgb} 
-}{%
-\includegraphics[width=14mm]{logos/kitlogo_de_rgb} 
-}%
+	\iffast
+		{\footnotesize [KIT-Logo]}
+	\else
+		\iflanguage{english}{%
+			\includegraphics[width=14mm]{logos/kitlogo_en_rgb} 
+		}{%
+			\includegraphics[width=14mm]{logos/kitlogo_de_rgb} 
+		}%
+	\fi
 
 \end{textblock*}
 

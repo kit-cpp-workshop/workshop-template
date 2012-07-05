@@ -25,6 +25,12 @@ pdf: $(MAINFILE).tex $(TEXSOURCES) images
 	pdflatex -draftmode -file-line-error $(MAINFILE)
 	pdflatex $(MAINFILE)
 
+fast: $(MAINFILE).tex $(TEXSOURCES) images 
+	- rm -f $(MAINFILE).pdf
+	- rm -f $(MAINFILE).aux
+	pdflatex -draftmode -file-line-error "\let\iffast\iftrue\input{$(MAINFILE)}"
+	pdflatex "\let\iffast\iftrue\input{$(MAINFILE)}"
+
 images:
 	 - make -C $(IMAGEDIR)
 
